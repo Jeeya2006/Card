@@ -7,15 +7,20 @@
     <style>
         .card{
             width: 300px;
-            height: 450px;
+            height: 500px;
             border: 2px solid black;
             margin-left: 40%;
+            border-radius: 4%;
+            overflow: hidden;
         }
         .img{
             width: 300px;
             height: 200px;
             background-image: url(https://www.bing.com/th/id/OIP.Fun3wrXk25N4JxXl5Kl2LgHaFD?w=193&h=135&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
-            border: 1px solid black;   
+            border: 1px solid black; 
+            background-size:cover;
+            background-position: center;
+            position: relative;  
         }
         .sale{ 
            margin-top: 5px;
@@ -24,7 +29,7 @@
             height: 15px;
             background-color: azure;
             display: inline-block;
-            border-radius: 15%;
+            border-radius: 5%;
             
         }
         .heart{
@@ -44,6 +49,9 @@
         button{
             margin-left: 100px;
         }
+        .price{
+            color: black;
+        }
 
     </style>
 </head>
@@ -60,7 +68,7 @@ Living room → for sitting, relaxing, and meeting guests<br>
 Bathroom → for bathing and toilet use<br>
 Dining room → for eating meals<br>
 Study room → for reading or working</div>
-<br>
+<div class="price"><h3>__1,20,00,000</h3></div>
 <button>Add to Cart</button>
     </div>
 </body>
